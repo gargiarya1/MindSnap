@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+
+<html lang="en">
+    <head>
+        <!--Start from here, change title as required-->
+        <title>Courses | Database Subjects | DBMS</title>
+        <link rel="stylesheet" type="text/css" href="../../styles/style_course.css">
+        <link rel="icon" href="../../assets/logos/title_icon.png" type="image/icon type">
+
+        <!--Google Fonts-->
+        <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+    </head>
+    <body>
+        <!--Navbar-->
+        <nav>
+            <ul class="menu-bar">
+                <div class="logo">
+                    <a href="../../index.html">
+                        <i class='fas fa-laptop-code' style='font-size:20px' >MindSnap</i>
+                    </a>
+                </div>
+                <li><a href="../../index.html">Home</a></li>
+                <li><a href="../../index.html#recent_courses">Recent Courses</a></li>
+                <li><a href="../../index.html#elective_subjects">Elective Subjects</a></li>
+                <li><a href="#contact">Contact Us</a></li>
+                <li><a href="../../suggestions.html" style="text-decoration: none;">Suggestions</a></li>
+            </ul>
+        </nav>
+
+        <!--course-Card-->
+        <div class="course_card_outline">
+            <h1>DBMS</h1>
+            <table>
+                <tr>
+                    <td style="text-align: center;">
+                        <img src="../../assets/elective_subjects/courses/database_subjects/db_management_systems.jpg" height="500px" width="320px"><br>
+                        <a class="btn-primary" href="#course_main" style="text-decoration: none;">View Course</a>
+                    </td>
+                </tr>        
+            </table>
+            <br>
+        </div>                
+
+        <!--course main-->
+        <!--Change table width till it looks nice-->
+        <br>
+        <table id="course_main" width = "80%" style="margin-left: auto; margin-right: auto;">
+            <tr>
+                <td>
+                    <div class="main-content" style="padding-top: 5px; padding-bottom: 5px;">
+                        <!--About the dish-->
+                        <h2>About</h2>
+                        <p>A Database Management System (DBMS) is software that manages databases, enabling users to store, retrieve, and manipulate data efficiently. It provides features for creating, organizing, and maintaining databases, ensuring data integrity, security, and concurrency control. DBMS facilitates interactions between users and databases through a structured interface, offering functionalities like querying, data modification, and administration. It plays a crucial role in modern information systems, powering various applications across industries.</p>
+                        
+                        <!--Video-->
+                        <h2>Video</h2>
+                        <!--Copy paste the entire iframe tag from YouTube, Open youtube video, SHARE, EMBED, copy the iframe tag that comes up-->
+                        <iframe width="560" height="315" src="https://www.youtube.com/embed/YRnjGeQbsHQ?si=RAnw-yYXObYg7DAC" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                        <!--Steps-->
+                        <!--Add li tags for more steps-->
+                        <h2>Notes</h2>
+                        <div class="notes">
+                            <ol>
+                                <li>Introduction to DBMS: A Database Management System (DBMS) is a software suite that enables users to interact with databases, facilitating the creation, retrieval, update, and management of data. It acts as an interface between users and the database, ensuring efficient storage and retrieval of data while providing mechanisms for data security and integrity.</li>
+                                <li>Data Organization: DBMS organizes data in a structured format, typically using tables, where each table consists of rows and columns. This relational model allows for efficient querying and manipulation of data using Structured Query Language (SQL), a standard language for managing relational databases. By structuring data, DBMS ensures consistency and reduces redundancy, enhancing data integrity and reliability.</li>
+                                <li>Data Retrieval and Manipulation: One of the key features of DBMS is its ability to retrieve and manipulate data efficiently. Users can execute complex queries to retrieve specific information from the database, perform aggregations, sorting, and filtering operations, and update existing data as needed. This capability empowers businesses to extract meaningful insights from their data and make informed decisions.</li>
+                                <li>Data Security and Integrity: DBMS implements various security measures to protect data from unauthorized access, ensuring confidentiality, integrity, and availability. It supports user authentication and authorization, access control mechanisms, encryption techniques, and auditing functionalities to safeguard sensitive information. Additionally, DBMS enforces data integrity constraints to maintain the accuracy and consistency of data stored in the database.</li>
+                                <li>Concurrency Control and Transaction Management: In multi-user environments, DBMS ensures concurrency control to manage simultaneous access to data by multiple users without compromising data consistency. It employs techniques such as locking, timestamping, and transaction isolation levels to prevent data anomalies and maintain the ACID (Atomicity, Consistency, Isolation, Durability) properties of transactions.</li>
+                                <li>Scalability and Performance: DBMS offers scalability to accommodate growing data volumes and user loads without sacrificing performance. It supports features like indexing, query optimization, and caching to enhance query execution speed and overall system performance. Additionally, DBMS can be deployed across distributed environments to achieve horizontal scalability and fault tolerance.</li>
+                                <li>Backup and Recovery: DBMS provides mechanisms for data backup and recovery to protect against data loss due to hardware failures, software errors, or disasters. It enables users to create backups of the database at regular intervals and restore the database to a consistent state in the event of a failure. This ensures business continuity and minimizes the risk of data loss.</li>
+                                <li>Data Administration and Maintenance: DBMS offers tools and utilities for database administration and maintenance tasks, such as database creation, configuration, monitoring, and performance tuning. Database administrators (DBAs) use these tools to manage users and their permissions, monitor database performance, optimize query execution plans, and troubleshoot issues to ensure the smooth functioning of the database system.</li>
+                            </ol>
+                        </div>
+                        <p><a href="../../index.html#recent_courses" target="_blank">More courses</a></p>
+                    </div>
+                </td>
+            </tr>
+        </table>
+
+        <!--Do not touch this area-->
+        <div class="contact-us" id="contact">
+           
+            <p>© 2024 All Rights Reserved, <a href="../../index.html" style="color: white; font-weight: bold;"  target="_blank">MindSnap</a></p>
+        </div>
+        <script src="../../js/course_logic.js"></script>
+    </body>
+</html>

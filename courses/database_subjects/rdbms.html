@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+
+<html lang="en">
+    <head>
+        <!--Start from here, change title as required-->
+        <title>Courses | Database Subjects | RDBMS</title>
+        <link rel="stylesheet" type="text/css" href="../../styles/style_course.css">
+        <link rel="icon" href="../../assets/logos/title_icon.png" type="image/icon type">
+
+        <!--Google Fonts-->
+        <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+    </head>
+    <body>
+        <!--Navbar-->
+        <nav>
+            <ul class="menu-bar">
+                <div class="logo">
+                    <a href="../../index.html">
+                        <i class='fas fa-laptop-code' style='font-size:20px' >MindSnap</i>
+                    </a>
+                </div>
+                <li><a href="../../index.html">Home</a></li>
+                <li><a href="../../index.html#recent_courses">Recent Courses</a></li>
+                <li><a href="../../index.html#elective_subjects">Elective Subjects</a></li>
+                <li><a href="#contact">Contact Us</a></li>
+                <li><a href="../../suggestions.html" style="text-decoration: none;">Suggestions</a></li>
+            </ul>
+        </nav>
+
+        <!--course-Card-->
+        <div class="course_card_outline">
+            <h1>RDBMS</h1>
+            <table>
+                <tr>
+                    <td style="text-align: center;">
+                        <img src="../../assets/elective_subjects/courses/database_subjects/rdbms.jpg" height="500px" width="320px"><br>
+                        <a class="btn-primary" href="#course_main" style="text-decoration: none;">View Course</a>
+                    </td>
+                </tr>        
+            </table>
+            <br>
+        </div>                
+
+        <!--course main-->
+        <!--Change table width till it looks nice-->
+        <br>
+        <table id="course_main" width = "80%" style="margin-left: auto; margin-right: auto;">
+            <tr>
+                <td>
+                    <div class="main-content" style="padding-top: 5px; padding-bottom: 5px;">
+                        <!--About the dish-->
+                        <h2>About</h2>
+                        <p>A Relational Database Management System (RDBMS) organizes data into structured tables, with rows representing individual records and columns representing attributes. It ensures data integrity through relationships defined between tables, enforcing constraints to maintain consistency. RDBMS provides powerful querying capabilities using SQL (Structured Query Language) for data manipulation and retrieval. It supports transactions for reliable data management and is widely used in various applications for efficient data storage and retrieval.</p>
+                        
+                        <!--Video-->
+                        <h2>Video</h2>
+                        <!--Copy paste the entire iframe tag from YouTube, Open youtube video, SHARE, EMBED, copy the iframe tag that comes up-->
+                        <iframe width="560" height="315" src="https://www.youtube.com/embed/FNkBQbuMeTc?si=YaAUFxd-Fz9qORT_" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                        <!--Steps-->
+                        <!--Add li tags for more steps-->
+                        <h2>Notes</h2>
+                        <div class="notes">
+                            <ol>
+                                <li>Introduction to RDBMS:
+                                    Relational Database Management System (RDBMS) is a software system designed to manage and store data based on the relational model. It organizes data into tables, where each table consists of rows and columns. RDBMS provides mechanisms for defining relationships between tables and enforcing constraints to maintain data integrity. It's widely used in various applications ranging from simple personal databases to large enterprise systems.</li>
+                                <li>Data Organization:
+                                    In RDBMS, data is organized into tables, where each table represents an entity or concept. Rows in a table represent individual instances of that entity, while columns represent attributes or properties of those instances. This tabular structure allows for efficient storage, retrieval, and manipulation of data. Additionally, RDBMS supports indexing, which further enhances performance by speeding up data access operations.</li>
+                                <li>Data Integrity:
+                                    One of the key features of RDBMS is its ability to enforce data integrity through various constraints. These constraints include primary keys, foreign keys, unique constraints, and check constraints. Primary keys ensure each row in a table is uniquely identifiable, while foreign keys establish relationships between tables. Unique constraints prevent duplicate values, and check constraints enforce specific conditions on data values.</li>
+                                <li>Query Language:
+                                    RDBMS systems typically use SQL (Structured Query Language) as the standard language for querying and manipulating data. SQL provides a rich set of commands for performing tasks such as retrieving data from tables, inserting new records, updating existing records, and deleting records. Its declarative nature allows users to specify what data they need, rather than how to retrieve it, making it user-friendly and versatile.</li>
+                                <li>Concurrency Control:
+                                    Concurrency control is essential in multi-user environments where multiple users may access and modify data simultaneously. RDBMS employs various techniques such as locking and transaction management to ensure data consistency and prevent conflicts between concurrent transactions. Locking mechanisms restrict access to data while a transaction is in progress, ensuring that changes made by one transaction are isolated from others until they are committed.</li>
+                                <li>Scalability and Performance:
+                                    RDBMS systems are designed to scale vertically by adding more resources to a single server or horizontally by distributing data across multiple servers. This scalability allows RDBMS to handle increasing volumes of data and users without sacrificing performance. Additionally, RDBMS optimizes query execution through techniques such as query optimization, indexing, and caching, resulting in efficient data retrieval and processing.</li>
+                                <li>ACID Properties:
+                                    RDBMS systems adhere to the ACID (Atomicity, Consistency, Isolation, Durability) properties to ensure reliable transaction processing. Atomicity guarantees that transactions are executed as a single unit of work, either entirely or not at all. Consistency ensures that the database remains in a valid state before and after each transaction. Isolation ensures that transactions are executed independently without interference from other transactions. Durability guarantees that committed transactions are permanently saved and survive system failures.</li>
+                                <li>Popular RDBMS Products:
+                                    Several popular RDBMS products dominate the market, including Oracle Database, MySQL, Microsoft SQL Server, PostgreSQL, and SQLite. Each of these systems offers unique features, performance characteristics, and licensing models, catering to different use cases and requirements. Organizations choose RDBMS products based on factors such as scalability, reliability, cost, vendor support, and compatibility with existing systems.</li>
+                            </ol>
+                        </div>
+                        <p><a href="../../index.html#recent_courses" target="_blank">More courses</a></p>
+                    </div>
+                </td>
+            </tr>
+        </table>
+
+        <!--Do not touch this area-->
+        <div class="contact-us" id="contact">
+           
+            <p>© 2024 All Rights Reserved, <a href="../../index.html" style="color: white; font-weight: bold;"  target="_blank">MindSnap</a></p>
+        </div>
+        <script src="../../js/course_logic.js"></script>
+    </body>
+</html>

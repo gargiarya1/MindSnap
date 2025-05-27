@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+
+<html lang="en">
+    <head>
+        <title>MinndSnap | Suggestions</title>
+        <link rel="stylesheet" type="text/css" href="styles/style_form.css">
+        <link rel="icon" href="../../assets/logos/title_icon.png" type="image/icon type">
+
+        <!--Google Fonts and icons-->
+        <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+        
+        <!-- Unicons CDN Link for Icons -->
+        <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/thinline.css">
+
+        <!-- JavaScript -->
+        <script src="js/form_logic.js"></script>
+    </head>
+    <body>
+        <!--Navbar-->
+        <nav>
+            <ul class="menu-bar">
+                <div class="logo">
+                    <a href="index.html">
+                        <i class='fas fa-laptop-code' style='font-size:20px' >MindSnap</i>
+                    </a>
+                </div>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="index.html#recent_courses">Recent Courses</a></li>
+                <li><a href="index.html#elective_subjects">Elective Subjects</a></li>
+                <li><a href="#contact">Contact Us</a></li>
+                <li><a href="suggestions.html" style="text-decoration: none;">Suggestions</a></li>
+            </ul>
+        </nav>
+
+        <!--Main Form-->
+        <div class="course-form">
+            <h1>Ask Questions</h1>
+            <p>Share your Amazing learning experience with thousands<br> of users across the world. Here you can ask any questions!</p>
+            <div class="course-form-body">
+                <form id="suggestion_form" autocomplete="off">
+                    <label for="name">Name</label>
+                    <input type="text" id="name" oninvalid="setCustomValidity('Please Enter your name!')" oninput="setCustomValidity('')" required>
+
+                    <label for="email">Email</label>
+                    <input type="email" id="password" oninvalid="setCustomValidity('Please Enter your email!')" oninput="setCustomValidity('')" required>
+
+                    <label for="course_name">Course Name</label>
+                    <input type="text" id="course_name" oninvalid="setCustomValidity('Please Enter your Recipe Name!')" oninput="setCustomValidity('')" required>
+
+                    <label for="description">Description</label>
+                    <textarea form="suggestions_form" placeholder="Enter Description" oninvalid="setCustomValidity('Please Enter Instructions!')" oninput="setCustomValidity('')" required></textarea>
+                    <br>
+                    <label for="category">Category</label>
+                    <select id="category" oninvalid="setCustomValidity('Please Select Category!')" oninput="setCustomValidity('')" required>
+                        <option></option>
+                        <option>Computational Subjects</option>
+                        <option>Programming Languages</option>
+                        <option>Database Subjects</option>
+                        <option>Basic Engineering Subjects</option>
+                        <option>Networking Subjects</option>
+                        <option>Others</option>
+                    </select>
+                    <br>
+
+                    <label>Upload Question Image</label>
+                    <label for="question_image" id="file_label">
+                        Select File<input type="file" id="question_image" oninvalid="setCustomValidity('Please Upload question Image!')" oninput="setCustomValidity('')" required>
+                    </label>
+                    <br>
+                    <input type="submit" onclick="validateAndSubmit()" class="btn-primary" style="height: 40px; width: fit-content; margin-left: auto; margin-right: auto;" value="Submit Question"><br>
+                    <input type="reset" class="btn-primary" style="height: 40px; width: fit-content; margin-left: auto; margin-right: auto;" value="Clear">
+                </form>
+            </div>
+        </div>
+
+        <div class="contact-us" id="contact"></div>
+            <p> <a style="color: rgb(244, 236, 236); font-weight: bold;">©2024 All Rights Reserved, <a href="index.html" style="color: white; font-weight: bold;">MindSnap</a></p>
+        </div>
+    </body>
+</html>

@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+
+<html lang="en">
+    <head>
+        <!--Start from here, change title as required-->
+        <title>Courses | Computational Subjects | Data Warehousing</title>
+        <link rel="stylesheet" type="text/css" href="../../styles/style_course.css">
+        <link rel="icon" href="../../assets/logos/title_icon.png" type="image/icon type">
+
+        <!--Google Fonts-->
+        <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+    </head>
+    <body>
+        <!--Navbar-->
+        <nav>
+            <ul class="menu-bar">
+                <div class="logo">
+                    <a href="../../index.html">
+                        <i class='fas fa-laptop-code' style='font-size:20px' >MindSnap</i>
+                    </a>
+                </div>
+                <li><a href="../../index.html">Home</a></li>
+                <li><a href="../../index.html#recent_courses">Recent Courses</a></li>
+                <li><a href="../../index.html#elective_subjects">Elective Subjects</a></li>
+                <li><a href="#contact">Contact Us</a></li>
+                <li><a href="../../suggestions.html" style="text-decoration: none;">Suggestions</a></li>
+            </ul>
+        </nav>
+
+        <!--course-Card-->
+        <div class="course_card_outline">
+            <h1>Data Warehousing</h1>
+            <table>
+                <tr>
+                    <td style="text-align: center;">
+                        <img src="../../assets/elective_subjects/courses/computational_subjects/data_warehousing.jpg" height="500px" width="320px"><br>
+                        <a class="btn-primary" href="#course_main" style="text-decoration: none;">View Course</a>
+                    </td>
+                </tr>        
+            </table>
+            <br>
+        </div>                
+
+        <!--course main-->
+        <!--Change table width till it looks nice-->
+        <br>
+        <table id="course_main" width = "80%" style="margin-left: auto; margin-right: auto;">
+            <tr>
+                <td>
+                    <div class="main-content" style="padding-top: 5px; padding-bottom: 5px;">
+                        <!--About the dish-->
+                        <h2>About</h2>
+                        <p>Data warehousing involves the process of collecting, storing, and managing data from various sources to support decision-making processes within an organization. It centralizes disparate data into a single, integrated repository, facilitating analysis, reporting, and business intelligence. By providing a unified view of data, data warehousing enhances data accessibility, consistency, and quality, empowering organizations to derive valuable insights and make informed strategic decisions.</p>
+                        
+                        <!--Video-->
+                        <h2>Video</h2>
+                        <!--Copy paste the entire iframe tag from YouTube, Open youtube video, SHARE, EMBED, copy the iframe tag that comes up-->
+                        <iframe width="560" height="315" src="https://www.youtube.com/embed/fGaJru-1fjI?si=ucsPhq-BVo2h9aFg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                        <!--Steps-->
+                        <!--Add li tags for more steps-->
+                        <h2>Notes</h2>
+                        <div class="notes">
+                            <ol>
+                                <li>Definition and Purpose:
+                                    Data warehousing involves the process of collecting, storing, and managing large volumes of data from various sources to facilitate analysis and decision-making. It serves as a central repository where data is integrated, organized, and optimized for reporting and analytics. By consolidating data from disparate sources, data warehousing enables businesses to gain insights, improve operational efficiency, and make informed strategic decisions.</li>
+                                <li>Architecture:
+                                    A typical data warehousing architecture comprises three layers: the source layer, the integration layer, and the presentation layer. The source layer gathers data from operational systems, such as databases and applications. The integration layer transforms and integrates this data into a unified format suitable for analysis. Finally, the presentation layer provides tools and interfaces for users to access and analyze the data stored in the warehouse.</li>
+                                <li>ETL Process:
+                                    The Extract, Transform, Load (ETL) process is central to data warehousing. Extraction involves retrieving data from source systems, transformation entails converting and standardizing data into a consistent format, and loading involves transferring data into the warehouse. ETL tools automate these processes, ensuring data quality, consistency, and timeliness, thereby facilitating efficient data integration and analysis.</li>
+                                <li>Data Modeling:
+                                    Data modeling in data warehousing involves designing the structure and relationships of data within the warehouse. Dimensional modeling, commonly used in data warehouses, organizes data into dimensions (descriptive attributes) and facts (numeric metrics). This model facilitates efficient querying and analysis, supporting various business intelligence activities such as reporting, OLAP (Online Analytical Processing), and data mining.</li>
+                                <li>Benefits:
+                                    Data warehousing offers numerous benefits to organizations, including improved decision-making, enhanced business intelligence, and greater operational efficiency. By providing a single, centralized source of truth, data warehouses enable stakeholders to access consistent and reliable information for analysis and reporting. This empowers organizations to identify trends, patterns, and insights that drive strategic initiatives and competitive advantage.</li>
+                                <li>Challenges:
+                                    Despite its benefits, data warehousing poses several challenges, such as complex integration processes, data quality issues, and scalability concerns. Integrating data from heterogeneous sources often requires substantial effort and expertise. Additionally, ensuring data quality and consistency across disparate systems can be challenging, impacting the reliability and accuracy of analytical insights.</li>
+                                <li>Data Governance:
+                                    Effective data governance is essential for maintaining the integrity, security, and usability of data within a data warehouse. It involves establishing policies, processes, and controls to ensure data quality, compliance, and security throughout its lifecycle. By implementing robust data governance practices, organizations can mitigate risks, enhance data trustworthiness, and maximize the value derived from their data assets.</li>
+                                <li>Future Trends:
+                                    The future of data warehousing is shaped by emerging technologies such as cloud computing, big data, and artificial intelligence. Cloud-based data warehousing solutions offer scalability, flexibility, and cost-effectiveness, enabling organizations to leverage vast amounts of data for analytics and insights. Additionally, advancements in AI and machine learning are enhancing data processing capabilities, enabling predictive analytics and real-time decision-making within data warehousing environments.</li>
+                            </ol>
+                        </div>
+                        <p><a href="../../index.html#recent_courses" target="_blank">More courses</a></p>
+                    </div>
+                </td>
+            </tr>
+        </table>
+
+        <!--Do not touch this area-->
+        <div class="contact-us" id="contact">
+           
+            <p>© 2024 All Rights Reserved, <a href="../../index.html" style="color: white; font-weight: bold;"  target="_blank">MindSnap</a></p>
+        </div>
+        <script src="../../js/course_logic.js"></script>
+    </body>
+</html>

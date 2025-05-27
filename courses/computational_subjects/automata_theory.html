@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+
+<html lang="en">
+    <head>
+        <!--Start from here, change title as required-->
+        <title>Courses | Computational Subjects | Automata Theory</title>
+        <link rel="stylesheet" type="text/css" href="../../styles/style_course.css">
+        <link rel="icon" href="../../assets/logos/title_icon.png" type="image/icon type">
+
+        <!--Google Fonts-->
+        <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+    </head>
+    <body>
+        <!--Navbar-->
+        <nav>
+            <ul class="menu-bar">
+                <div class="logo">
+                    <a href="../../index.html">
+                        <i class='fas fa-laptop-code' style='font-size:20px' >MindSnap</i>
+                    </a>
+                </div>
+                <li><a href="../../index.html">Home</a></li>
+                <li><a href="../../index.html#recent_courses">Recent Courses</a></li>
+                <li><a href="../../index.html#elective_subjects">Elective Subjects</a></li>
+                <li><a href="#contact">Contact Us</a></li>
+                <li><a href="../../suggestions.html" style="text-decoration: none;">Suggestions</a></li>
+            </ul>
+        </nav>
+
+        <!--course-Card-->
+        <div class="course_card_outline">
+            <h1>Automata Theory</h1>
+            <table>
+                <tr>
+                    <td style="text-align: center;">
+                        <img src="../../assets/elective_subjects/courses/computational_subjects/automata_theory.jpg" height="500px" width="320px"><br>
+                        <a class="btn-primary" href="#course_main" style="text-decoration: none;">View Course</a>
+                    </td>
+                </tr>        
+            </table>
+            <br>
+        </div>                
+
+        <!--course main-->
+        <!--Change table width till it looks nice-->
+        <br>
+        <table id="course_main" width = "80%" style="margin-left: auto; margin-right: auto;">
+            <tr>
+                <td>
+                    <div class="main-content" style="padding-top: 5px; padding-bottom: 5px;">
+                        <!--About the dish-->
+                        <h2>About</h2>
+                        <p>Automata theory - studies abstract machines or systems to understand computation and formal languages. It's foundational in computer science, exploring finite and infinite state machines and their properties.</p>
+                        
+                        <!--Video-->
+                        <h2>Video</h2>
+                        <!--Copy paste the entire iframe tag from YouTube, Open youtube video, SHARE, EMBED, copy the iframe tag that comes up-->
+                        <iframe width="560" height="315" src="https://www.youtube.com/embed/acCztqcZi_Q?si=A--TIWHcLt5zR17-" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                        <!--Steps-->
+                        <!--Add li tags for more steps-->
+                        <h2>Notes</h2>
+                        <div class="notes">
+                            <ol>
+                                <li>Automata theory delves into the abstraction of computation, investigating models like finite automata, which navigate through states based on input. It explores formal languages, describing sets of strings and their properties, often represented through regular expressions or grammars.</li>
+                                <li>Furthermore, it examines pushdown automata, extending finite automata with a stack, allowing for more complex language recognition, pivotal in parsing and understanding context-free grammars prevalent in programming languages.</li>
+                                <li>Turing machines, a cornerstone of automata theory, provide a theoretical framework for understanding computation's fundamental limits and capabilities, exploring questions of decidability and complexity, central in theoretical computer science's study of algorithmic problem-solving.</li>
+                                <li>Moreover, automata theory finds applications beyond computer science, such as in natural language processing, where finite state machines aid in tasks like text tokenization, parsing, and syntactic analysis, showcasing its interdisciplinary relevance and impact.</li>
+                                <li>Additionally, automata theory intersects with formal verification, ensuring correctness in systems and software through model checking techniques. By representing system behavior with automata, it becomes feasible to verify properties exhaustively, contributing to safety-critical domains like aerospace and medical device design.</li>
+                                <li>Moreover, quantum automata extend classical automata theory into the realm of quantum computation, exploring how quantum states and operations affect computation. This burgeoning field offers insights into quantum algorithms' potential efficiency gains and challenges, shaping the future landscape of computing and information processing.</li>
+                            </ol>
+                        </div>
+                        <p><a href="../../index.html#recent_courses" target="_blank">More courses</a></p>
+                    </div>
+                </td>
+            </tr>
+        </table>
+
+      
+        <div class="contact-us" id="contact">
+           
+            <p>© 2024 All Rights Reserved, <a href="../../index.html" style="color: white; font-weight: bold;"  target="_blank">MindSnap</a></p>
+        </div>
+        <script src="../../js/course_logic.js"></script>
+    </body>
+</html>

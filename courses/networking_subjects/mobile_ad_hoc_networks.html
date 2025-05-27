@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+
+<html lang="en">
+    <head>
+        <!--Start from here, change title as required-->
+        <title>Courses | Networking Subjects | Mobile Ad hoc Networks</title>
+        <link rel="stylesheet" type="text/css" href="../../styles/style_course.css">
+        <link rel="icon" href="../../assets/logos/title_icon.png" type="image/icon type">
+
+        <!--Google Fonts-->
+        <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+    </head>
+    <body>
+        <!--Navbar-->
+        <nav>
+            <ul class="menu-bar">
+                <div class="logo">
+                    <a href="../../index.html">
+                        <i class='fas fa-laptop-code' style='font-size:20px' >MindSnap</i>
+                    </a>
+                </div>
+                <li><a href="../../index.html">Home</a></li>
+                <li><a href="../../index.html#recent_courses">Recent Courses</a></li>
+                <li><a href="../../index.html#elective_subjects">Elective Subjects</a></li>
+                <li><a href="#contact">Contact Us</a></li>
+                <li><a href="../../suggestions.html" style="text-decoration: none;">Suggestions</a></li>
+            </ul>
+        </nav>
+
+        <!--course-Card-->
+        <div class="course_card_outline">
+            <h1>Mobile Ad hoc Networks</h1>
+            <table>
+                <tr>
+                    <td style="text-align: center;">
+                        <img src="../../assets/elective_subjects/courses/networking_subjects/mobile_ad_hoc_networks.jpg" height="500px" width="320px"><br>
+                        <a class="btn-primary" href="#course_main" style="text-decoration: none;">View Course</a>
+                    </td>
+                </tr>        
+            </table>
+            <br>
+        </div>                
+
+        <!--course main-->
+        <!--Change table width till it looks nice-->
+        <br>
+        <table id="course_main" width = "80%" style="margin-left: auto; margin-right: auto;">
+            <tr>
+                <td>
+                    <div class="main-content" style="padding-top: 5px; padding-bottom: 5px;">
+                        <!--About the dish-->
+                        <h2>About</h2>
+                        <p>Mobile Ad hoc Networks (MANETs) are decentralized networks formed by mobile devices without relying on fixed infrastructure. Nodes in MANETs dynamically establish connections, enabling communication in scenarios where traditional networks are unavailable. These networks are self-configuring, self-healing, and adaptable, making them suitable for emergency response, military operations, and areas lacking infrastructure. MANETs face challenges such as routing, security, and resource constraints due to their dynamic nature and absence of centralized control.</p>
+                        
+                        <!--Video-->
+                        <h2>Video</h2>
+                        <!--Copy paste the entire iframe tag from YouTube, Open youtube video, SHARE, EMBED, copy the iframe tag that comes up-->
+                        <iframe width="560" height="315" src="https://www.youtube.com/embed/pZBxxrScjQY?si=Y5PCHCPHWAuwH9qK" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                        <!--Steps-->
+                        <!--Add li tags for more steps-->
+                        <h2>Notes</h2>
+                        <div class="notes">
+                            <ol>
+                                <li>Mobile ad hoc networks (MANETs) are decentralized networks of mobile devices, communicating without a fixed infrastructure. They dynamically form and dissolve as devices move. MANETs are crucial for military, emergency response, and vehicular communication scenarios.</li>
+                                <li>Routing in MANETs is challenging due to node mobility and topology changes. Protocols like AODV and DSR address this by discovering routes on-demand or maintaining route caches.</li>
+                                <li>MANETs face security threats due to their open nature and lack of centralized control. Attacks like black hole, gray hole, and wormhole compromise network integrity.</li>
+                                <li>Quality of Service (QoS) provisioning in MANETs is complex, balancing factors like bandwidth, delay, and reliability. Solutions involve adaptive routing and resource management algorithms to meet application requirements.</li>
+                                <li>Energy efficiency is critical in MANETs due to limited battery resources. Protocols optimize energy usage through power-aware routing, sleep scheduling, and dynamic power management.</li>
+                                <li>MANETs offer flexibility and scalability, enabling rapid deployment in dynamic environments like disaster areas or battlefield scenarios. Their self-configuring nature allows nodes to join or leave the network seamlessly.</li>
+                                <li>Challenges like scalability, security, and QoS continue to drive research in MANETs, with ongoing efforts to develop robust protocols and solutions for real-world deployment.</li>
+                                <li>Overall, MANETs play a vital role in modern communication, offering resilient, self-organizing networks suitable for various applications, despite facing significant technical challenges.</li>
+                            </ol>
+                        </div>
+                        <p><a href="../../index.html#recent_courses" target="_blank">More courses</a></p>
+                    </div>
+                </td>
+            </tr>
+        </table>
+
+        <!--Do not touch this area-->
+        <div class="contact-us" id="contact">
+           
+            <p>© 2024 All Rights Reserved, <a href="../../index.html" style="color: white; font-weight: bold;"  target="_blank">MindSnap</a></p>
+        </div>
+        <script src="../../js/course_logic.js"></script>
+    </body>
+</html>

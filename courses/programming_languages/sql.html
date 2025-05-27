@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+
+<html lang="en">
+    <head>
+        <!--Start from here, change title as required-->
+        <title>Courses | Programming Languages | SQL</title>
+        <link rel="stylesheet" type="text/css" href="../../styles/style_course.css">
+        <link rel="icon" href="../../assets/logos/title_icon.png" type="image/icon type">
+
+        <!--Google Fonts-->
+        <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+    </head>
+    <body>
+        <!--Navbar-->
+        <nav>
+            <ul class="menu-bar">
+                <div class="logo">
+                    <a href="../../index.html">
+                        <i class='fas fa-laptop-code' style='font-size:20px' >MindSnap</i>
+                    </a>
+                </div>
+                <li><a href="../../index.html">Home</a></li>
+                <li><a href="../../index.html#recent_courses">Recent Courses</a></li>
+                <li><a href="../../index.html#elective_subjects">Elective Subjects</a></li>
+                <li><a href="#contact">Contact Us</a></li>
+                <li><a href="../../suggestions.html" style="text-decoration: none;">Suggestions</a></li>
+            </ul>
+        </nav>
+
+        <!--course-Card-->
+        <div class="course_card_outline">
+            <h1>SQL</h1>
+            <table>
+                <tr>
+                    <td style="text-align: center;">
+                        <img src="../../assets/elective_subjects/courses/programming_languages/sql.jpg" height="500px" width="320px"><br>
+                        <a class="btn-primary" href="#course_main" style="text-decoration: none;">View Course</a>
+                    </td>
+                </tr>        
+            </table>
+            <br>
+        </div>                
+
+        <!--course main-->
+        <!--Change table width till it looks nice-->
+        <br>
+        <table id="course_main" width = "80%" style="margin-left: auto; margin-right: auto;">
+            <tr>
+                <td>
+                    <div class="main-content" style="padding-top: 5px; padding-bottom: 5px;">
+                        <!--About the dish-->
+                        <h2>About</h2>
+                        <p>SQL (Structured Query Language) is a standardized programming language used for managing relational databases. It enables users to interact with databases by querying and manipulating data. SQL commands can perform various tasks such as retrieving data from databases, inserting new data, updating existing data, and deleting data. It provides a powerful and efficient way to work with structured data, making it essential for database management and data analysis tasks.</p>
+                        
+                        <!--Video-->
+                        <h2>Video</h2>
+                        <!--Copy paste the entire iframe tag from YouTube, Open youtube video, SHARE, EMBED, copy the iframe tag that comes up-->
+                        <iframe width="560" height="315" src="https://www.youtube.com/embed/hlGoQC332VM?si=vtlJeiHpCckJCibF" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                        <!--Steps-->
+                        <!--Add li tags for more steps-->
+                        <h2>Notes</h2>
+                        <div class="notes">
+                            <ol>
+                                <li>SQL (Structured Query Language) is a domain-specific language used for managing relational databases. It facilitates various operations such as data retrieval, insertion, updating, and deletion. SQL operates through commands like SELECT, INSERT, UPDATE, and DELETE, enabling users to interact with databases effectively. Its simplicity and widespread adoption make it a fundamental tool for developers, database administrators, and data analysts in handling structured data efficiently.</li>
+                                <li>The SELECT statement is SQL's most commonly used command, allowing users to retrieve specific data from a database based on defined criteria. It enables filtering, sorting, and grouping of data, making it versatile for various querying needs. By specifying columns and conditions, SELECT queries fetch precise information, aiding decision-making processes and data analysis tasks crucial for businesses across industries.</li>
+                                <li>SQL's INSERT statement adds new records or rows into a database table, facilitating the creation of data entries. With the ability to specify values for each column, INSERT commands ensure accurate data insertion, maintaining database integrity. Whether adding single or multiple records, this command streamlines the process of populating databases with relevant information, essential for applications ranging from e-commerce to financial systems.</li>
+                                <li>UPDATE statements in SQL modify existing data within a database, allowing users to make changes to specific records based on defined criteria. By specifying the columns to be updated and setting new values, UPDATE commands facilitate data maintenance and correction tasks. This functionality ensures the accuracy and consistency of information stored in databases, enhancing data reliability and integrity across applications.</li>
+                                <li>SQL's DELETE statement removes records from a database table based on specified conditions, providing a means to eliminate unwanted or obsolete data. By targeting specific rows for deletion, DELETE commands help optimize database performance and storage efficiency. Proper data management through deletion operations ensures that databases remain streamlined, responsive, and free from unnecessary clutter, enhancing system performance and usability.</li>
+                                <li>SQL supports powerful aggregation functions such as SUM, AVG, COUNT, MIN, and MAX, enabling users to perform calculations on datasets and derive meaningful insights. These functions operate on groups of rows, summarizing data and generating valuable metrics for analysis and reporting purposes. By facilitating data aggregation, SQL empowers users to extract trends, patterns, and statistical information crucial for decision-making and business intelligence.</li>
+                                <li>SQL's JOIN operation combines data from multiple tables based on specified relationships, enabling users to retrieve correlated information in a single query. Whether performing inner, outer, or self-joins, SQL's JOIN capabilities facilitate complex data retrieval tasks by merging related datasets seamlessly. This functionality is fundamental for querying relational databases with normalized schemas, ensuring comprehensive data access and analysis.</li>
+                                <li>SQL also supports transaction management features like COMMIT, ROLLBACK, and SAVEPOINT, ensuring data consistency and reliability in multi-user environments. Transactions enable users to execute sequences of SQL operations as atomic units, ensuring either all changes are applied or none in case of failures or interruptions. This transactional support guarantees database integrity and resilience, vital for mission-critical applications demanding robust data handling capabilities.</li>
+                            </ol>
+                        </div>
+                        <p><a href="../../index.html#recent_courses" target="_blank">More courses</a></p>
+                    </div>
+                </td>
+            </tr>
+        </table>
+
+        <!--Do not touch this area-->
+        <div class="contact-us" id="contact">
+           
+            <p>© 2024 All Rights Reserved, <a href="../../index.html" style="color: white; font-weight: bold;"  target="_blank">MindSnap</a></p>
+        </div>
+        <script src="../../js/course_logic.js"></script>
+    </body>
+</html>

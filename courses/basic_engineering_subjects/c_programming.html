@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+
+<html lang="en">
+    <head>
+        <!--Start from here, change title as required-->
+        <title>Courses | Basic Engineering Subjects | C Programming</title>
+        <link rel="stylesheet" type="text/css" href="../../styles/style_course.css">
+        <link rel="icon" href="../../assets/logos/title_icon.png" type="image/icon type">
+
+        <!--Google Fonts-->
+        <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+    </head>
+    <body>
+        <!--Navbar-->
+        <nav>
+            <ul class="menu-bar">
+                <div class="logo">
+                    <a href="../../index.html">
+                        <i class='fas fa-laptop-code' style='font-size:20px' >MindSnap</i>
+                    </a>
+                </div>
+                <li><a href="../../index.html">Home</a></li>
+                <li><a href="../../index.html#recent_courses">Recent Courses</a></li>
+                <li><a href="../../index.html#elective_subjects">Elective Subjects</a></li>
+                <li><a href="#contact">Contact Us</a></li>
+                <li><a href="../../suggestions.html" style="text-decoration: none;">Suggestions</a></li>
+            </ul>
+        </nav>
+
+        <!--course-Card-->
+        <div class="course_card_outline">
+            <h1>C Programming</h1>
+            <table>
+                <tr>
+                    <td style="text-align: center;">
+                        <img src="../../assets/elective_subjects/courses/basic_engineering_subjects/c_programming.jpg" height="500px" width="320px"><br>
+                        <a class="btn-primary" href="#course_main" style="text-decoration: none;">View Course</a>
+                    </td>
+                </tr>        
+            </table>
+            <br>
+        </div>                
+
+        <!--course main-->
+        <!--Change table width till it looks nice-->
+        <br>
+        <table id="course_main" width = "80%" style="margin-left: auto; margin-right: auto;">
+            <tr>
+                <td>
+                    <div class="main-content" style="padding-top: 5px; padding-bottom: 5px;">
+                        <!--About the dish-->
+                        <h2>About</h2>
+                        <p>C Programming is a foundational language known for its efficiency and versatility. Developed in the early 1970s, it remains widely used in systems programming, embedded systems, and application development. Its syntax is concise yet powerful, allowing low-level access to computer memory and hardware, making it ideal for creating fast and efficient programs. C is the basis for many modern programming languages and is essential for understanding computer architecture and operating systems.</p>
+                        
+                        <!--Video-->
+                        <h2>Video</h2>
+                        <!--Copy paste the entire iframe tag from YouTube, Open youtube video, SHARE, EMBED, copy the iframe tag that comes up-->
+                        <iframe width="560" height="315" src="https://www.youtube.com/embed/vLhaqQLj6KQ?si=_iEDrTX5Q65jxu0N" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                        <!--Steps-->
+                        <!--Add li tags for more steps-->
+                        <h2>Notes</h2>
+                        <div class="notes">
+                            <ol>
+                                <li>Introduction to C Programming:
+                                    C is a powerful procedural programming language known for its efficiency and flexibility. Developed by Dennis Ritchie in the early 1970s, it became widely used due to its close relationship with Unix operating systems. Its simplicity, portability, and ability to manipulate hardware make it a cornerstone for system programming, embedded systems, and software development across various platforms.</li>
+                                <li>Syntax and Structure:
+                                    C's syntax is concise yet expressive, featuring a rich set of operators and control structures. Programs are organized into functions, with a main() function serving as the entry point. Its structured approach emphasizes modular design and code reusability. Variables must be declared before use, adhering to specific data types. Control flow mechanisms like loops and conditionals enable precise execution control and algorithm implementation.</li>
+                                <li>Data Types and Memory Management:
+                                    C supports fundamental data types such as integers, floating-point numbers, characters, and pointers. Memory management in C is explicit, requiring manual allocation and deallocation using functions like malloc() and free(). Pointers facilitate direct memory access, enabling efficient data manipulation and dynamic memory allocation. However, improper memory handling can lead to memory leaks and undefined behavior, demanding careful programming practices.</li>
+                                <li>Functions and Libraries:
+                                    Functions in C encapsulate reusable code blocks, promoting modularization and code organization. Libraries provide pre-written functions for common tasks, enhancing productivity and code readability. Standard C libraries like stdio.h and math.h offer functionalities for input/output operations, mathematical calculations, and more. Additionally, programmers can create custom libraries to encapsulate frequently used functionalities, promoting code reuse and abstraction.</li>
+                                <li>File Handling and I/O Operations:
+                                    C provides robust mechanisms for file handling and input/output operations. File pointers enable reading from and writing to files, supporting sequential and random access modes. Standard I/O functions like fopen(), fread(), fwrite(), and fclose() facilitate file manipulation. These capabilities are essential for tasks such as data processing, file parsing, and interfacing with external devices, enriching C's applicability in diverse domains.</li>
+                                <li>Structures and Pointers:
+                                    Structures allow grouping related data under a single user-defined type, enhancing code clarity and organization. Pointers, integral to C's power and flexibility, enable dynamic memory allocation, function parameter passing by reference, and efficient data manipulation. Combining structures with pointers enables complex data structures like linked lists, trees, and graphs, facilitating sophisticated data representation and manipulation in C programs.</li>
+                                <li>Error Handling and Debugging:
+                                    C provides limited built-in support for error handling, relying on return codes and error flags for function calls. Debugging techniques such as printf() statements, assert() macros, and debuggers aid in identifying and resolving program errors. Understanding memory layout, pointer arithmetic, and program flow is crucial for effective debugging and error prevention. Defensive programming practices and thorough testing mitigate runtime errors and enhance program robustness.</li>
+                                <li>Portability and Standards Compliance:
+                                    C's standardization by organizations like ANSI and ISO ensures language consistency and portability across different platforms and compilers. Adhering to language standards promotes code interoperability and compatibility, facilitating seamless migration and maintenance. While compiler-specific extensions exist, adhering to standard C promotes code portability and interoperability, ensuring long-term viability and ease of maintenance for C programs.</li>
+                            </ol>
+                        </div>
+                        <p><a href="../../index.html#recent_courses" target="_blank">More courses</a></p>
+                    </div>
+                </td>
+            </tr>
+        </table>
+
+        <!--Do not touch this area-->
+        <div class="contact-us" id="contact">
+           
+            <p>© 2024 All Rights Reserved, <a href="../../index.html" style="color: white; font-weight: bold;"  target="_blank">MindSnap</a></p>
+        </div>
+        <script src="../../js/course_logic.js"></script>
+    </body>
+</html>

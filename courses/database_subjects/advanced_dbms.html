@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+
+<html lang="en">
+    <head>
+        <!--Start from here, change title as required-->
+        <title>Courses | Database Subjects | Advanced DBMS</title>
+        <link rel="stylesheet" type="text/css" href="../../styles/style_course.css">
+        <link rel="icon" href="../../assets/logos/title_icon.png" type="image/icon type">
+
+        <!--Google Fonts-->
+        <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+    </head>
+    <body>
+        <!--Navbar-->
+        <nav>
+            <ul class="menu-bar">
+                <div class="logo">
+                    <a href="../../index.html">
+                        <i class='fas fa-laptop-code' style='font-size:20px' >MindSnap</i>
+                    </a>
+                </div>
+                <li><a href="../../index.html">Home</a></li>
+                <li><a href="../../index.html#recent_courses">Recent Courses</a></li>
+                <li><a href="../../index.html#elective_subjects">Elective Subjects</a></li>
+                <li><a href="#contact">Contact Us</a></li>
+                <li><a href="../../suggestions.html" style="text-decoration: none;">Suggestions</a></li>
+            </ul>
+        </nav>
+
+        <!--course-Card-->
+        <div class="course_card_outline">
+            <h1>Advanced DBMS</h1>
+            <table>
+                <tr>
+                    <td style="text-align: center;">
+                        <img src="../../assets/elective_subjects/courses/database_subjects/advanced_dbms.jpg" height="500px" width="320px"><br>
+                        <a class="btn-primary" href="#course_main" style="text-decoration: none;">View Course</a>
+                    </td>
+                </tr>        
+            </table>
+            <br>
+        </div>                
+
+        <!--course main-->
+        <!--Change table width till it looks nice-->
+        <br>
+        <table id="course_main" width = "80%" style="margin-left: auto; margin-right: auto;">
+            <tr>
+                <td>
+                    <div class="main-content" style="padding-top: 5px; padding-bottom: 5px;">
+                        <!--About the dish-->
+                        <h2>About</h2>
+                        <p>Advanced Database Management Systems (DBMS) encompass cutting-edge techniques for storing, retrieving, and managing vast amounts of data efficiently. These systems utilize complex data models, such as object-oriented or graph databases, and incorporate advanced features like distributed processing, parallel querying, and data mining algorithms. They're crucial for modern applications demanding high scalability, performance, and reliability, offering sophisticated solutions for data storage, retrieval, and analysis in various domains like finance, healthcare, and e-commerce.</p>
+                        
+                        <!--Video-->
+                        <h2>Video</h2>
+                        <!--Copy paste the entire iframe tag from YouTube, Open youtube video, SHARE, EMBED, copy the iframe tag that comes up-->
+                        <iframe width="560" height="315" src="https://www.youtube.com/embed/dl00fOOYLOM?si=odZBMGbWC9IBRUCi" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                        <!--Steps-->
+                        <!--Add li tags for more steps-->
+                        <h2>Notes</h2>
+                        <div class="notes">
+                            <ol>
+                                <li>Introduction to Advanced DBMS:
+                                    Advanced Database Management Systems (DBMS) are sophisticated software tools designed to handle complex data storage, retrieval, and manipulation tasks. These systems go beyond traditional database management by incorporating features such as scalability, high availability, fault tolerance, and support for diverse data types. Advanced DBMS solutions are vital in modern applications where massive volumes of data need to be efficiently managed and analyzed.</li>
+                                <li>Data Modeling and Design:
+                                    In advanced DBMS, data modeling plays a crucial role in defining the structure and relationships within the database. Advanced techniques such as entity-relationship modeling, object-oriented modeling, and schema normalization are employed to ensure data integrity, minimize redundancy, and optimize performance. Design decisions impact query efficiency, scalability, and ease of maintenance, making it essential to employ best practices and methodologies during the design phase.</li>
+                                <li>Query Optimization and Performance:
+                                    Advanced DBMS systems employ sophisticated query optimization techniques to enhance performance and scalability. Query execution plans are generated based on factors like indexes, table statistics, and system resources to minimize response times and resource utilization. Advanced optimization strategies include parallel query processing, materialized views, and query caching, which are essential for handling large-scale datasets and complex analytical queries efficiently.</li>
+                                <li>Transaction Management and Concurrency Control:
+                                    Transaction management ensures the ACID (Atomicity, Consistency, Isolation, Durability) properties of database transactions. Advanced DBMS systems implement concurrency control mechanisms such as multi-version concurrency control (MVCC), deadlock detection, and isolation levels to ensure data consistency and prevent anomalies like dirty reads and phantom phenomena. Efficient transaction management is critical for maintaining data integrity in multi-user environments with concurrent access.</li>
+                                <li>Distributed Database Systems:
+                                    Advanced DBMS solutions support distributed database architectures where data is stored across multiple geographically dispersed locations. Distributed databases offer benefits such as improved scalability, fault tolerance, and disaster recovery capabilities. Advanced features like distributed query processing, data replication, and distributed deadlock detection are essential for ensuring data consistency and performance in distributed environments.</li>
+                                <li>Advanced Data Storage and Retrieval:
+                                    Advanced DBMS systems utilize innovative data storage technologies such as columnar storage, in-memory databases, and NoSQL databases to optimize data retrieval performance and storage efficiency. These technologies offer advantages like faster query execution, reduced storage footprint, and support for semi-structured and unstructured data types. Advanced indexing techniques and compression algorithms further enhance data storage and retrieval efficiency.</li>
+                                <li>Data Security and Privacy:
+                                    Advanced DBMS solutions incorporate robust security features to protect sensitive data from unauthorized access, tampering, and breaches. Security measures include access control mechanisms, encryption, authentication, and auditing functionalities to ensure compliance with regulatory requirements and safeguard against internal and external threats. Advanced DBMS systems also support fine-grained access control policies and data masking techniques to protect privacy and confidentiality.</li>
+                                <li>Integration with Emerging Technologies:
+                                    Advanced DBMS solutions seamlessly integrate with emerging technologies such as cloud computing, big data analytics, and machine learning. They offer native support for distributed computing frameworks, data streaming platforms, and real-time analytics tools to enable organizations to leverage the full potential of their data assets. Integration with emerging technologies enhances scalability, agility, and innovation in data management and analytics workflows.</li>
+                            </ol>
+                        </div>
+                        <p><a href="../../index.html#recent_courses" target="_blank">More courses</a></p>
+                    </div>
+                </td>
+            </tr>
+        </table>
+
+        <!--Do not touch this area-->
+        <div class="contact-us" id="contact">
+           
+            <p>© 2024 All Rights Reserved, <a href="../../index.html" style="color: white; font-weight: bold;"  target="_blank">MindSnap</a></p>
+        </div>
+        <script src="../../js/course_logic.js"></script>
+    </body>
+</html>

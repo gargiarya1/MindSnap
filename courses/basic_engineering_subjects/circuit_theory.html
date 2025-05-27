@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+
+<html lang="en">
+    <head>
+        <!--Start from here, change title as required-->
+        <title>Courses | Basic Engineering Subjects | Circuit Theory</title>
+        <link rel="stylesheet" type="text/css" href="../../styles/style_course.css">
+        <link rel="icon" href="../../assets/logos/title_icon.png" type="image/icon type">
+
+        <!--Google Fonts-->
+        <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+    </head>
+    <body>
+        <!--Navbar-->
+        <nav>
+            <ul class="menu-bar">
+                <div class="logo">
+                    <a href="../../index.html">
+                        <i class='fas fa-laptop-code' style='font-size:20px' >MindSnap</i>
+                    </a>
+                </div>
+                <li><a href="../../index.html">Home</a></li>
+                <li><a href="../../index.html#recent_courses">Recent Courses</a></li>
+                <li><a href="../../index.html#elective_subjects">Elective Subjects</a></li>
+                <li><a href="#contact">Contact Us</a></li>
+                <li><a href="../../suggestions.html" style="text-decoration: none;">Suggestions</a></li>
+            </ul>
+        </nav>
+
+        <!--course-Card-->
+        <div class="course_card_outline">
+            <h1>Circuit Theory</h1>
+            <table>
+                <tr>
+                    <td style="text-align: center;">
+                        <img src="../../assets/elective_subjects/courses/basic_engineering_subjects/circuit_theory.jpg" height="500px" width="320px"><br>
+                        <a class="btn-primary" href="#course_main" style="text-decoration: none;">View Course</a>
+                    </td>
+                </tr>        
+            </table>
+            <br>
+        </div>                
+
+        <!--course main-->
+        <!--Change table width till it looks nice-->
+        <br>
+        <table id="course_main" width = "80%" style="margin-left: auto; margin-right: auto;">
+            <tr>
+                <td>
+                    <div class="main-content" style="padding-top: 5px; padding-bottom: 5px;">
+                        <!--About the dish-->
+                        <h2>About</h2>
+                        <p>Circuit theory explores the principles governing electrical circuits, analyzing the flow of current and voltage through various components like resistors, capacitors, and inductors. It investigates circuit behavior using mathematical models, such as Ohm's law and Kirchhoff's laws, to predict and understand circuit performance. This theory serves as the foundation for designing, analyzing, and troubleshooting electronic systems, from simple circuits to complex integrated circuits powering modern technology.</p>
+                        
+                        <!--Video-->
+                        <h2>Video</h2>
+                        <!--Copy paste the entire iframe tag from YouTube, Open youtube video, SHARE, EMBED, copy the iframe tag that comes up-->
+                        <iframe width="560" height="315" src="https://www.youtube.com/embed/pHNbm-4reIc?si=Sy0HzcwB2RQ5MFLN" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                        <!--Steps-->
+                        <!--Add li tags for more steps-->
+                        <h2>Notes</h2>
+                        <div class="notes">
+                            <ol>
+                                <li>Introduction to Circuit Theory: Circuit Theory explores the principles governing electrical circuits, focusing on the flow of current and voltage. It encompasses fundamental concepts like Ohm's Law and Kirchhoff's Laws, enabling analysis and design of various electrical systems. Understanding basic circuit components such as resistors, capacitors, and inductors is essential for grasping the behavior of circuits under different conditions.</li>
+                                <li>Kirchhoff's Laws: Kirchhoff's Laws, comprising Kirchhoff's Voltage Law (KVL) and Kirchhoff's Current Law (KCL), are fundamental principles in circuit analysis. KVL states that the sum of voltages around any closed loop in a circuit is zero, while KCL dictates that the total current entering a node equals the total current leaving it. These laws form the basis for analyzing complex circuits.</li>
+                                <li>Node and Mesh Analysis: Node and mesh analysis are systematic techniques used to solve electrical circuits. Node analysis involves determining voltages at various nodes in a circuit, while mesh analysis focuses on analyzing currents in different mesh loops. These methods simplify circuit analysis, especially in complex circuits, by reducing the number of equations needed to solve for circuit variables.</li>
+                                <li>Thevenin's and Norton's Theorems: Thevenin's Theorem states that any linear circuit containing independent and dependent sources and resistances can be replaced by a single voltage source in series with a single resistor. Norton's Theorem, on the other hand, asserts that any linear circuit can be represented by an equivalent current source in parallel with an equivalent resistor. These theorems facilitate simplification and analysis of circuits.</li>
+                                <li>Transient and Steady-State Analysis: Transient analysis focuses on studying the behavior of circuits during the transition from one steady-state condition to another, typically in response to sudden changes in input. Steady-state analysis, on the other hand, examines the behavior of circuits under stable operating conditions. Both analyses are crucial for understanding circuit dynamics and ensuring proper circuit design and operation.</li>
+                                <li>AC Circuit Analysis: AC circuit analysis involves studying circuits with alternating current sources. It includes analyzing the behavior of passive components like resistors, capacitors, and inductors in AC circuits, as well as understanding concepts such as impedance, admittance, and phasors. AC analysis is essential for designing circuits for applications such as power distribution and electronic systems operating with alternating currents.</li>
+                                <li>Frequency Response and Filters: Frequency response analysis evaluates how circuits respond to different frequencies of input signals. Filters, such as low-pass, high-pass, band-pass, and band-stop filters, are essential components in circuit design for selectively passing or blocking certain frequency components. Understanding frequency response and filter design is critical for applications like audio processing, communications, and signal conditioning.</li>
+                                <li>Circuit Simulation and Design Tools: Circuit simulation software, such as SPICE (Simulation Program with Integrated Circuit Emphasis), enables engineers to analyze and design complex circuits virtually. These tools simulate circuit behavior under various conditions, helping engineers predict performance, identify potential issues, and optimize designs before physical implementation. Circuit simulation plays a vital role in modern electronics design and prototyping processes.</li>
+                            </ol>
+                        </div>
+                        <p><a href="../../index.html#recent_courses" target="_blank">More courses</a></p>
+                    </div>
+                </td>
+            </tr>
+        </table>
+
+        <!--Do not touch this area-->
+        <div class="contact-us" id="contact">
+           
+            <p>© 2024 All Rights Reserved, <a href="../../index.html" style="color: white; font-weight: bold;"  target="_blank">MindSnap</a></p>
+        </div>
+        <script src="../../js/course_logic.js"></script>
+    </body>
+</html>

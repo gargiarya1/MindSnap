@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+
+<html lang="en">
+    <head>
+        <!--Start from here, change title as required-->
+        <title>Courses | Computational Subjects | Compiler Design</title>
+        <link rel="stylesheet" type="text/css" href="../../styles/style_course.css">
+        <link rel="icon" href="../../assets/logos/title_icon.png" type="image/icon type">
+
+        <!--Google Fonts-->
+        <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+    </head>
+    <body>
+        <!--Navbar-->
+        <nav>
+            <ul class="menu-bar">
+                <div class="logo">
+                    <a href="../../index.html">
+                        <i class='fas fa-laptop-code' style='font-size:20px' >MindSnap</i>
+                    </a>
+                </div>
+                <li><a href="../../index.html">Home</a></li>
+                <li><a href="../../index.html#recent_courses">Recent Courses</a></li>
+                <li><a href="../../index.html#elective_subjects">Elective Subjects</a></li>
+                <li><a href="#contact">Contact Us</a></li>
+                <li><a href="../../suggestions.html" style="text-decoration: none;">Suggestions</a></li>
+            </ul>
+        </nav>
+
+        <!--course-Card-->
+        <div class="course_card_outline">
+            <h1>Compiler Design</h1>
+            <table>
+                <tr>
+                    <td style="text-align: center;">
+                        <img src="../../assets/elective_subjects/courses/computational_subjects/compiler_design.jpg" height="500px" width="320px"><br>
+                        <a class="btn-primary" href="#course_main" style="text-decoration: none;">View Course</a>
+                    </td>
+                </tr>        
+            </table>
+            <br>
+        </div>                
+
+        <!--course main-->
+        <!--Change table width till it looks nice-->
+        <br>
+        <table id="course_main" width = "80%" style="margin-left: auto; margin-right: auto;">
+            <tr>
+                <td>
+                    <div class="main-content" style="padding-top: 5px; padding-bottom: 5px;">
+                        <!--About the dish-->
+                        <h2>About</h2>
+                        <p>Compiler design involves translating high-level programming languages into machine code for execution by computers. It encompasses lexical analysis, syntax analysis, semantic analysis, optimization, and code generation, ensuring efficient and accurate conversion while adhering to language specifications and target architectures.</p>
+                        
+                        <!--Video-->
+                        <h2>Video</h2>
+                        <!--Copy paste the entire iframe tag from YouTube, Open youtube video, SHARE, EMBED, copy the iframe tag that comes up-->
+                        <iframe width="560" height="315" src="https://www.youtube.com/embed/OQCjakjCJu4?si=RvD3TWy7p3ktU4ju" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                        <!--Steps-->
+                        <!--Add li tags for more steps-->
+                        <h2>Notes</h2>
+                        <div class="notes">
+                            <ol>
+                                <li>Lexical Analysis: The first phase of compiler design, it breaks down the source code into tokens, discarding whitespaces and comments. These tokens form the basic building blocks for subsequent processing, aiding in syntax and semantic analysis.</li>
+                                <li>Syntax Analysis: Following lexical analysis, this phase verifies the structure of the code according to the grammar rules of the programming language. It constructs a parse tree or abstract syntax tree, facilitating further semantic analysis and code generation.</li>
+                                <li>Semantic Analysis: This stage checks the meaning of the code beyond its structure. It ensures compatibility with language rules, type checking, and resolves ambiguities. Semantic analysis plays a crucial role in detecting and reporting errors that may not be apparent in syntax alone.</li>
+                                <li>Optimization: Compiler optimization aims to improve the efficiency of the generated code. Techniques like constant folding, loop optimization, and register allocation are employed to enhance performance while reducing execution time and memory usage.</li>
+                                <li>Code Generation: In this phase, the compiler translates the analyzed and optimized code into machine language or intermediate code. It maps high-level language constructs to low-level instructions, considering target hardware architecture and optimization objectives.</li>
+                                <li>Error Handling and Reporting: Throughout the compilation process, the compiler detects and reports various types of errors, ranging from syntax errors to semantic inconsistencies. Clear and informative error messages aid developers in understanding and rectifying issues in their code efficiently</li>
+                            </ol>
+                        </div>
+                        <p><a href="../../index.html#recent_courses" target="_blank">More courses</a></p>
+                    </div>
+                </td>
+            </tr>
+        </table>
+
+        <!--Do not touch this area-->
+        <div class="contact-us" id="contact">
+           
+            <p>© 2024 All Rights Reserved, <a href="../../index.html" style="color: white; font-weight: bold;"  target="_blank">MindSnap</a></p>
+        </div>
+        <script src="../../js/course_logic.js"></script>
+    </body>
+</html>

@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+
+<html lang="en">
+    <head>
+        <!--Start from here, change title as required-->
+        <title>Courses | Basic Engineering Subjects | Data Structures</title>
+        <link rel="stylesheet" type="text/css" href="../../styles/style_course.css">
+        <link rel="icon" href="../../assets/logos/title_icon.png" type="image/icon type">
+
+        <!--Google Fonts-->
+        <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+    </head>
+    <body>
+        <!--Navbar-->
+        <nav>
+            <ul class="menu-bar">
+                <div class="logo">
+                    <a href="../../index.html">
+                        <i class='fas fa-laptop-code' style='font-size:20px' >MindSnap</i>
+                    </a>
+                </div>
+                <li><a href="../../index.html">Home</a></li>
+                <li><a href="../../index.html#recent_courses">Recent Courses</a></li>
+                <li><a href="../../index.html#elective_subjects">Elective Subjects</a></li>
+                <li><a href="#contact">Contact Us</a></li>
+                <li><a href="../../suggestions.html" style="text-decoration: none;">Suggestions</a></li>
+            </ul>
+        </nav>
+
+        <!--course-Card-->
+        <div class="course_card_outline">
+            <h1>Data Structures</h1>
+            <table>
+                <tr>
+                    <td style="text-align: center;">
+                        <img src="../../assets/elective_subjects/courses/basic_engineering_subjects/data_structures.jpg" height="500px" width="320px"><br>
+                        <a class="btn-primary" href="#course_main" style="text-decoration: none;">View Course</a>
+                    </td>
+                </tr>        
+            </table>
+            <br>
+        </div>                
+
+        <!--course main-->
+        <!--Change table width till it looks nice-->
+        <br>
+        <table id="course_main" width = "80%" style="margin-left: auto; margin-right: auto;">
+            <tr>
+                <td>
+                    <div class="main-content" style="padding-top: 5px; padding-bottom: 5px;">
+                        <!--About the dish-->
+                        <h2>About</h2>
+                        <p>Data structures are fundamental components in computer science, organizing and storing data efficiently. They include arrays, linked lists, stacks, queues, trees, and graphs. Each structure has unique characteristics suited to different tasks, such as searching, sorting, and accessing data. Mastery of data structures enables optimized algorithms, improving performance and scalability in software development. Understanding their principles is essential for designing robust and efficient programs.</p>
+                        
+                        <!--Video-->
+                        <h2>Video</h2>
+                        <!--Copy paste the entire iframe tag from YouTube, Open youtube video, SHARE, EMBED, copy the iframe tag that comes up-->
+                        <iframe width="560" height="315" src="https://www.youtube.com/embed/2ZLl8GAk1X4?si=mH6na_WsBQW5pbqm" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                        <!--Steps-->
+                        <!--Add li tags for more steps-->
+                        <h2>Notes</h2>
+                        <div class="notes">
+                            <ol>
+                                <li>Introduction: Data structures are fundamental components in computer science, facilitating efficient organization and management of data. They provide the foundation for storing, retrieving, and manipulating data in various applications. Key aspects include their design, efficiency, and suitability for specific tasks. Common data structures include arrays, linked lists, stacks, queues, trees, and graphs, each serving unique purposes and offering different trade-offs in terms of speed and memory usage.</li>
+                                <li>Arrays: Arrays represent a contiguous block of memory where elements are stored sequentially, accessed by index. They offer fast access to elements but have fixed sizes, limiting flexibility. Dynamic arrays resize as needed, balancing speed and memory. Multidimensional arrays organize data in multiple dimensions, useful for matrices and other complex structures, while sparse arrays optimize memory usage by only storing non-default values.</li>
+                                <li>Linked Lists: Linked lists consist of nodes linked together by pointers, allowing dynamic allocation of memory. They offer flexibility in size and efficient insertion and deletion operations, albeit with slightly slower access times compared to arrays. Variants such as doubly linked lists facilitate traversal in both directions, while circular linked lists connect the last node to the first, forming a loop.</li>
+                                <li>Stacks and Queues: Stacks follow the Last In, First Out (LIFO) principle, ideal for tasks like function call management and expression evaluation. Operations like push and pop modify the top element. Queues adhere to the First In, First Out (FIFO) rule, suitable for tasks like job scheduling and breadth-first search. Enqueue and dequeue operations respectively add and remove elements from the front.</li>
+                                <li>Trees: Trees are hierarchical data structures comprising nodes connected by edges. They are widely used for representing hierarchical relationships like file systems and organizing data for efficient searching. Binary trees limit nodes to at most two children per node, facilitating efficient searching, insertion, and deletion operations. Balanced trees like AVL and Red-Black trees maintain balance, optimizing performance.</li>
+                                <li>Graphs: Graphs consist of vertices connected by edges, modeling various relationships between objects. They are used in network analysis, social network modeling, and route planning algorithms like Dijkstra's and A* search. Directed graphs incorporate edge directions, while undirected graphs do not. Representations include adjacency matrices and lists, each with trade-offs in terms of space and access time.</li>
+                                <li>Hash Tables: Hash tables offer fast retrieval of data by mapping keys to values using a hash function. They provide constant-time average case access for insertion, deletion, and search operations, making them efficient for large datasets. Collision resolution techniques like chaining and open addressing handle cases where multiple keys map to the same hash value, ensuring data integrity and performance.</li>
+                                <li>Complex Data Structures: Beyond basic structures, complex data structures like heaps, tries, and graphs with specialized algorithms cater to specific needs. Heaps facilitate efficient priority queue operations, while tries optimize string-related tasks like dictionary implementations and autocomplete. Specialized graph algorithms like topological sorting and minimum spanning trees address unique challenges in diverse domains. Understanding and leveraging these structures are key to developing efficient algorithms and software systems.</li>
+                            </ol>
+                        </div>
+                        <p><a href="../../index.html#recent_courses" target="_blank">More courses</a></p>
+                    </div>
+                </td>
+            </tr>
+        </table>
+
+        <!--Do not touch this area-->
+        <div class="contact-us" id="contact">
+           
+            <p>© 2024 All Rights Reserved, <a href="../../index.html" style="color: white; font-weight: bold;"  target="_blank">MindSnap</a></p>
+        </div>
+        <script src="../../js/course_logic.js"></script>
+    </body>
+</html>

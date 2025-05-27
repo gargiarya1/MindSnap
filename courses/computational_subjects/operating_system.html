@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+
+<html lang="en">
+    <head>
+        <!--Start from here, change title as required-->
+        <title>Courses | Computational Subjects | Operating System</title>
+        <link rel="stylesheet" type="text/css" href="../../styles/style_course.css">
+        <link rel="icon" href="../../assets/logos/title_icon.png" type="image/icon type">
+
+        <!--Google Fonts-->
+        <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+    </head>
+    <body>
+        <!--Navbar-->
+        <nav>
+            <ul class="menu-bar">
+                <div class="logo">
+                    <a href="../../index.html">
+                        <i class='fas fa-laptop-code' style='font-size:20px' >MindSnap</i>
+                    </a>
+                </div>
+                <li><a href="../../index.html">Home</a></li>
+                <li><a href="../../index.html#recent_courses">Recent Courses</a></li>
+                <li><a href="../../index.html#elective_subjects">Elective Subjects</a></li>
+                <li><a href="#contact">Contact Us</a></li>
+                <li><a href="../../suggestions.html" style="text-decoration: none;">Suggestions</a></li>
+            </ul>
+        </nav>
+
+        <!--course-Card-->
+        <div class="course_card_outline">
+            <h1>Operating System</h1>
+            <table>
+                <tr>
+                    <td style="text-align: center;">
+                        <img src="../../assets/elective_subjects/courses/computational_subjects/compiler_design.jpg" height="500px" width="320px"><br>
+                        <a class="btn-primary" href="#course_main" style="text-decoration: none;">View Course</a>
+                    </td>
+                </tr>        
+            </table>
+            <br>
+        </div>                
+
+        <!--course main-->
+        <!--Change table width till it looks nice-->
+        <br>
+        <table id="course_main" width = "80%" style="margin-left: auto; margin-right: auto;">
+            <tr>
+                <td>
+                    <div class="main-content" style="padding-top: 5px; padding-bottom: 5px;">
+                        <!--About the dish-->
+                        <h2>About</h2>
+                        <p>An operating system (OS) is software that manages hardware and software resources, enabling user interaction with a computer. It controls tasks like memory allocation, file management, and device communication, facilitating smooth operation of applications. Popular examples include Windows, macOS, and Linux. The OS serves as an intermediary between users and the computer's hardware, providing a platform for efficient computing.</p>
+
+                        <!--Video-->
+                        <h2>Video</h2>
+                        <!--Copy paste the entire iframe tag from YouTube, Open youtube video, SHARE, EMBED, copy the iframe tag that comes up-->
+                        <iframe width="560" height="315" src="https://www.youtube.com/embed/3obEP8eLsCw?si=iZgjmMoJpEoY0F5-" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                        <!--Steps-->
+                        <!--Add li tags for more steps-->
+                        <h2>Notes</h2>
+                        <div class="notes">
+                            <ol>
+                                <li>Definition and Purpose: An operating system (OS) is software that manages computer hardware and provides services to user applications. It serves as an intermediary between hardware and software, facilitating resource allocation, scheduling tasks, managing memory, and ensuring security. Without an OS, users would interact directly with hardware, leading to inefficiency and complexity in executing programs.</li>
+                                <li>Types of Operating Systems: OSs can be categorized as single-user or multi-user, single-tasking or multi-tasking, and distributed or centralized. Single-user OSs like Windows focus on individual user needs, while multi-user OSs like Unix support concurrent user access. Multi-tasking OSs allow multiple processes to run simultaneously, enhancing efficiency. Distributed OSs manage interconnected systems, while centralized OSs control a single system.</li>
+                                <li>Kernel and Components: The kernel is the core component of an OS, responsible for managing system resources and providing essential services. Other components include device drivers for hardware interaction, system libraries for software support, and user interface components for interaction. Together, these elements form a cohesive system that enables users to interact with hardware effectively through applications.</li>
+                                <li>Process and Memory Management: Process management involves creating, scheduling, and terminating processes, ensuring efficient resource utilization. Memory management handles memory allocation, optimization, and protection, preventing unauthorized access and ensuring stable system operation. These functions are critical for maintaining system stability and preventing conflicts among multiple processes competing for resources.</li>
+                                <li>File System and I/O Management: The file system organizes and stores data on storage devices, providing hierarchical access and management capabilities. I/O management facilitates communication between the CPU and peripheral devices, coordinating data transfer and ensuring efficient device utilization. These components enable users to store, retrieve, and manipulate data effectively, enhancing system functionality and usability.</li>
+                                <li>Security and Protection: Operating systems implement security measures to protect system resources, data, and user privacy. Access control mechanisms restrict user privileges, preventing unauthorized access and ensuring system integrity. Encryption techniques safeguard sensitive information, while authentication mechanisms verify user identities. These security features are essential for maintaining system reliability and protecting against malicious attacks.</li>
+                                <li>Virtualization and Compatibility: OSs support virtualization techniques, allowing multiple virtual machines to run simultaneously on a single physical machine. Virtualization enhances resource utilization, scalability, and flexibility, enabling efficient deployment of diverse software environments. OS compatibility ensures that applications developed for one OS can run seamlessly on other compatible systems, promoting interoperability and software portability.</li>
+                                <li>Evolution and Future Trends: Operating systems have evolved significantly over time, from early mainframe systems to modern cloud-based and mobile platforms. Future trends include the integration of artificial intelligence for automated system management, the adoption of containerization for lightweight application deployment, and the development of quantum OSs for quantum computing environments, reflecting ongoing innovation in the field.</li>
+                            </ol>
+                        </div>
+                        <p><a href="../../index.html#recent_courses" target="_blank">More courses</a></p>
+                    </div>
+                </td>
+            </tr>
+        </table>
+
+        <!--Do not touch this area-->
+        <div class="contact-us" id="contact">
+           
+            <p>© 2024 All Rights Reserved, <a href="../../index.html" style="color: white; font-weight: bold;"  target="_blank">MindSnap</a></p>
+        </div>
+        <script src="../../js/course_logic.js"></script>
+    </body>
+</html>

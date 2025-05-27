@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+
+<html lang="en">
+    <head>
+        <!--Start from here, change title as required-->
+        <title>Courses | Programming Languages | OOPs C++</title>
+        <link rel="stylesheet" type="text/css" href="../../styles/style_course.css">
+        <link rel="icon" href="../../assets/logos/title_icon.png" type="image/icon type">
+
+        <!--Google Fonts-->
+        <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+    </head>
+    <body>
+        <!--Navbar-->
+        <nav>
+            <ul class="menu-bar">
+                <div class="logo">
+                    <a href="../../index.html">
+                        <i class='fas fa-laptop-code' style='font-size:20px' >MindSnap</i>
+                    </a>
+                </div>
+                <li><a href="../../index.html">Home</a></li>
+                <li><a href="../../index.html#recent_courses">Recent Courses</a></li>
+                <li><a href="../../index.html#elective_subjects">Elective Subjects</a></li>
+                <li><a href="#contact">Contact Us</a></li>
+                <li><a href="../../suggestions.html" style="text-decoration: none;">Suggestions</a></li>
+            </ul>
+        </nav>
+
+        <!--course-Card-->
+        <div class="course_card_outline">
+            <h1>OOPs C++</h1>
+            <table>
+                <tr>
+                    <td style="text-align: center;">
+                        <img src="../../assets/elective_subjects/courses/programming_languages/oops_c++.jpg" height="500px" width="320px"><br>
+                        <a class="btn-primary" href="#course_main" style="text-decoration: none;">View Course</a>
+                    </td>
+                </tr>        
+            </table>
+            <br>
+        </div>                
+
+        <!--course main-->
+        <!--Change table width till it looks nice-->
+        <br>
+        <table id="course_main" width = "80%" style="margin-left: auto; margin-right: auto;">
+            <tr>
+                <td>
+                    <div class="main-content" style="padding-top: 5px; padding-bottom: 5px;">
+                        <!--About the dish-->
+                        <h2>About</h2>
+                        <p>Object-Oriented Programming in C++ (OOP) revolves around the concept of objects, which encapsulate data and behavior. It emphasizes modularity and reusability by organizing code into classes and objects. Inheritance enables the creation of hierarchical relationships between classes, facilitating code reuse and promoting a more organized structure. Polymorphism allows objects of different classes to be treated as objects of a common superclass, enhancing flexibility and extensibility in software design.</p>
+                        
+                        <!--Video-->
+                        <h2>Video</h2>
+                        <!--Copy paste the entire iframe tag from YouTube, Open youtube video, SHARE, EMBED, copy the iframe tag that comes up-->
+                        <iframe width="560" height="315" src="https://www.youtube.com/embed/wN0x9eZLix4?si=8-8XcJpygwYHH9P8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                        <!--Steps-->
+                        <!--Add li tags for more steps-->
+                        <h2>Notes</h2>
+                        <div class="notes">
+                            <ol>
+                                <li>Object-Oriented Programming (OOP) in C++: C++ is a powerful programming language that supports the principles of OOP, such as encapsulation, inheritance, and polymorphism. Encapsulation allows bundling data and methods that operate on the data within a single unit, promoting modularity and data hiding. Inheritance facilitates code reuse by allowing classes to inherit properties and behaviors from other classes, fostering hierarchical relationships and enhancing code organization.</li>
+                                <li>Abstraction and Polymorphism: C++ enables abstraction, allowing developers to represent real-world entities as classes with relevant attributes and behaviors, hiding unnecessary details. Polymorphism enables objects of different types to be treated uniformly, facilitating code flexibility and extensibility. Through mechanisms like function overloading and virtual functions, C++ empowers developers to write generic code that can operate on various data types and objects, promoting code reuse and simplifying maintenance.</li>
+                                <li>Classes and Objects: In C++, classes serve as blueprints for creating objects, defining their structure and behavior. Objects are instances of classes, representing specific entities with distinct data and functionality. C++ supports constructors and destructors for initializing and releasing resources associated with objects, ensuring proper object lifecycle management. Member functions enable objects to perform operations and interact with each other, facilitating modular and organized code development.</li>
+                                <li>Encapsulation and Data Hiding: Encapsulation in C++ allows bundling data and methods within a class, controlling access to data members through access specifiers like public, private, and protected. Private members are accessible only within the class, promoting data hiding and preventing unauthorized access. By encapsulating implementation details, C++ fosters abstraction, enhancing code maintainability, and reducing dependencies between different parts of the program.</li>
+                                <li>Inheritance and Code Reusability: C++ supports inheritance, enabling classes to inherit properties and behaviors from other classes. Derived classes can extend or override the functionality of base classes, promoting code reusability and facilitating hierarchical relationships. Through inheritance, common functionalities can be centralized in base classes, reducing code duplication and enhancing code organization, making the codebase easier to understand and maintain.</li>
+                                <li>Polymorphism and Dynamic Binding: C++ facilitates polymorphism, allowing objects of different types to be treated uniformly through a common interface. Dynamic binding, achieved through virtual functions, enables the selection of appropriate functions to be deferred until runtime, enhancing code flexibility and adaptability. Polymorphism promotes extensible and modular code design, facilitating the integration of new functionalities and the extension of existing ones without modifying existing code.</li>
+                                <li>Operator Overloading and Templates: C++ allows overloading of operators, enabling user-defined types to behave like built-in types, enhancing code expressiveness and readability. Templates provide a mechanism for writing generic code that can operate on different data types without sacrificing type safety or performance. By allowing the creation of generic algorithms and data structures, templates promote code reuse and flexibility in C++ programming.</li>
+                                <li>Memory Management and RAII: C++ provides manual memory management capabilities through features like pointers and dynamic memory allocation. Resource Acquisition Is Initialization (RAII) is a programming idiom in C++ that ensures proper resource management by tying resource acquisition to object initialization and resource release to object destruction. RAII promotes robust and exception-safe code, preventing resource leaks and enhancing code reliability and maintainability.</li>
+                            </ol>
+                        </div>
+                        <p><a href="../../index.html#recent_courses" target="_blank">More courses</a></p>
+                    </div>
+                </td>
+            </tr>
+        </table>
+
+        <!--Do not touch this area-->
+        <div class="contact-us" id="contact">
+           
+            <p>© 2024 All Rights Reserved, <a href="../../index.html" style="color: white; font-weight: bold;"  target="_blank">MindSnap</a></p>
+        </div>
+        <script src="../../js/course_logic.js"></script>
+    </body>
+</html>

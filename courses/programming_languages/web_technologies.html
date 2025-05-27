@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+
+<html lang="en">
+    <head>
+        <!--Start from here, change title as required-->
+        <title>Courses | Programming Languages | Web Technology</title>
+        <link rel="stylesheet" type="text/css" href="../../styles/style_course.css">
+        <link rel="icon" href="../../assets/logos/title_icon.png" type="image/icon type">
+
+        <!--Google Fonts-->
+        <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+    </head>
+    <body>
+        <!--Navbar-->
+        <nav>
+            <ul class="menu-bar">
+                <div class="logo">
+                    <a href="../../index.html">
+                        <i class='fas fa-laptop-code' style='font-size:20px' >MindSnap</i>
+                    </a>
+                </div>
+                <li><a href="../../index.html">Home</a></li>
+                <li><a href="../../index.html#recent_courses">Recent Courses</a></li>
+                <li><a href="../../index.html#elective_subjects">Elective Subjects</a></li>
+                <li><a href="#contact">Contact Us</a></li>
+                <li><a href="../../suggestions.html" style="text-decoration: none;">Suggestions</a></li>
+            </ul>
+        </nav>
+
+        <!--course-Card-->
+        <div class="course_card_outline">
+            <h1>Web Technology</h1>
+            <table>
+                <tr>
+                    <td style="text-align: center;">
+                        <img src="../../assets/elective_subjects/courses/programming_languages/web_technologies.jpg" height="500px" width="320px"><br>
+                        <a class="btn-primary" href="#course_main" style="text-decoration: none;">View Course</a>
+                    </td>
+                </tr>        
+            </table>
+            <br>
+        </div>                
+
+        <!--course main-->
+        <!--Change table width till it looks nice-->
+        <br>
+        <table id="course_main" width = "80%" style="margin-left: auto; margin-right: auto;">
+            <tr>
+                <td>
+                    <div class="main-content" style="padding-top: 5px; padding-bottom: 5px;">
+                        <!--About the dish-->
+                        <h2>About</h2>
+                        <p>Web technology encompasses tools, protocols, and standards used to create and operate websites and web applications. It includes programming languages like HTML, CSS, and JavaScript for designing and interactivity, alongside server-side scripting languages such as PHP and Python. Web technologies also encompass frameworks like React and Angular for front-end development, as well as server technologies like Apache and Nginx. They facilitate communication, data exchange, and user interaction on the World Wide Web.</p>
+                        
+                        <!--Video-->
+                        <h2>Video</h2>
+                        <!--Copy paste the entire iframe tag from YouTube, Open youtube video, SHARE, EMBED, copy the iframe tag that comes up-->
+                        <iframe width="560" height="315" src="https://www.youtube.com/embed/dX8396ZmSPk?si=ZiCk2vB-3nrwFOxp" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                        <!--Steps-->
+                        <!--Add li tags for more steps-->
+                        <h2>Notes</h2>
+                        <div class="notes">
+                            <ol>
+                                <li>HTML (Hypertext Markup Language): HTML forms the backbone of web content, structuring documents using tags to define elements like headings, paragraphs, and images. It provides the foundation for web pages, ensuring consistency and accessibility across browsers. HTML5, the latest version, introduces new features like video and audio embedding, canvas for drawing graphics, and semantic elements for improved SEO and accessibility.</li>
+                                <li>CSS (Cascading Style Sheets): CSS complements HTML, allowing developers to control the visual presentation of web pages. It defines styles such as layout, colors, fonts, and animations, separating content from design. CSS3 advancements include flexbox and grid layouts for responsive design, transitions and transformations for enhanced interactivity, and media queries for adapting styles to different devices and screen sizes.</li>
+                                <li>JavaScript: JavaScript, a versatile scripting language, adds dynamic behavior to web pages, enabling interactive features like form validation, animations, and AJAX-driven content updates. It interacts with HTML and CSS, manipulating the Document Object Model (DOM) to modify page elements in response to user actions. Modern frameworks like React, Angular, and Vue.js streamline development, offering reusable components and efficient state management.</li>
+                                <li>Backend Development: Backend technologies power the server-side of web applications, handling tasks like data processing, user authentication, and business logic. Popular backend languages include Python, Node.js, Ruby, and PHP, each offering frameworks and libraries for building robust web services. Databases like MySQL, MongoDB, and PostgreSQL manage data storage, while server technologies like Express.js and Django facilitate routing and middleware integration.</li>
+                                <li>Web Servers and Hosting: Web servers like Apache, Nginx, and Microsoft IIS serve web content to clients upon request, managing incoming traffic and routing requests to the appropriate resources. Hosting services offer infrastructure for deploying web applications, ranging from shared hosting for small websites to dedicated servers and cloud platforms like AWS, Azure, and Google Cloud, providing scalability and reliability for diverse needs.</li>
+                                <li>Security and Authentication: Web security is crucial for protecting sensitive data and preventing unauthorized access. Techniques like HTTPS encryption, CSRF protection, and input validation mitigate common threats such as data breaches and injection attacks. Authentication mechanisms like OAuth and JWT enable secure user login and authorization, ensuring that only authenticated users can access restricted resources and perform privileged actions.</li>
+                                <li>Responsive Design and Accessibility: With the proliferation of mobile devices and diverse user needs, responsive design ensures that web content adapts seamlessly to different screen sizes and devices. Accessibility standards like WCAG promote inclusive design practices, making web content perceivable, operable, and understandable for users with disabilities. Tools like screen readers and keyboard navigation enhance accessibility, fostering equal access to digital information.</li>
+                                <li>Web Standards and Future Trends: Web standards organizations like W3C and WHATWG define specifications for HTML, CSS, and JavaScript, driving interoperability and innovation across browsers and platforms. Emerging trends like Progressive Web Apps (PWAs), WebAssembly, and WebRTC expand the capabilities of web applications, enabling offline functionality, native-like performance, and real-time communication, shaping the future of web technology.</li>
+                            </ol>
+                        </div>
+                        <p><a href="../../index.html#recent_courses" target="_blank">More courses</a></p>
+                    </div>
+                </td>
+            </tr>
+        </table>
+
+        <!--Do not touch this area-->
+        <div class="contact-us" id="contact">
+           
+            <p>© 2024 All Rights Reserved, <a href="../../index.html" style="color: white; font-weight: bold;"  target="_blank">MindSnap</a></p>
+        </div>
+        <script src="../../js/course_logic.js"></script>
+    </body>
+</html>

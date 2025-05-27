@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+
+<html lang="en">
+    <head>
+        <!--Start from here, change title as required-->
+        <title>Courses | Computational Subjects | Machine Learning</title>
+        <link rel="stylesheet" type="text/css" href="../../styles/style_course.css">
+        <link rel="icon" href="../../assets/logos/title_icon.png" type="image/icon type">
+
+        <!--Google Fonts-->
+        <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+    </head>
+    <body>
+        <!--Navbar-->
+        <nav>
+            <ul class="menu-bar">
+                <div class="logo">
+                    <a href="../../index.html">
+                        <i class='fas fa-laptop-code' style='font-size:20px' >MindSnap</i>
+                    </a>
+                </div>
+                <li><a href="../../index.html">Home</a></li>
+                <li><a href="../../index.html#recent_courses">Recent Courses</a></li>
+                <li><a href="../../index.html#elective_subjects">Elective Subjects</a></li>
+                <li><a href="#contact">Contact Us</a></li>
+                <li><a href="../../suggestions.html" style="text-decoration: none;">Suggestions</a></li>
+            </ul>
+        </nav>
+
+        <!--course-Card-->
+        <div class="course_card_outline">
+            <h1>Machine Learning</h1>
+            <table>
+                <tr>
+                    <td style="text-align: center;">
+                        <img src="../../assets/elective_subjects/courses/computational_subjects/machine_learning.jpg" height="500px" width="320px"><br>
+                        <a class="btn-primary" href="#course_main" style="text-decoration: none;">View Course</a>
+                    </td>
+                </tr>        
+            </table>
+            <br>
+        </div>                
+
+        <!--course main-->
+        <!--Change table width till it looks nice-->
+        <br>
+        <table id="course_main" width = "80%" style="margin-left: auto; margin-right: auto;">
+            <tr>
+                <td>
+                    <div class="main-content" style="padding-top: 5px; padding-bottom: 5px;">
+                        <!--About the dish-->
+                        <h2>About</h2>
+                        <p>Machine learning is a branch of artificial intelligence (AI) that enables systems to learn patterns and make decisions from data without explicit programming. It involves algorithms that iteratively improve over time as they are exposed to more data. Applications range from email filtering to self-driving cars. Techniques include supervised learning, where models learn from labeled data, and unsupervised learning, where they find patterns in unlabeled data. Deep learning is a subset using neural networks with multiple layers.</p>
+                        
+                        <!--Video-->
+                        <h2>Video</h2>
+                        <!--Copy paste the entire iframe tag from YouTube, Open youtube video, SHARE, EMBED, copy the iframe tag that comes up-->
+                        <iframe width="560" height="315" src="https://www.youtube.com/embed/NWONeJKn6kc?si=uNk_usfilCLibwwL" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                        <!--Steps-->
+                        <!--Add li tags for more steps-->
+                        <h2>Notes</h2>
+                        <div class="notes">
+                            <ol>
+                                <li>Introduction to Machine Learning: Machine learning (ML) empowers computers to learn from data without being explicitly programmed. It encompasses algorithms that enable systems to identify patterns, make predictions, and improve over time. ML algorithms can be categorized as supervised, unsupervised, or reinforcement learning, each serving different purposes based on the available data and desired outcomes.</li>
+                                <li>Supervised Learning: In supervised learning, models are trained on labeled data, where each input-output pair is provided during training. Common tasks include classification, where models predict discrete labels, and regression, where they predict continuous values. Supervised learning algorithms include decision trees, support vector machines, neural networks, and ensemble methods like random forests and gradient boosting.</li>
+                                <li>Unsupervised Learning: Unsupervised learning involves training models on unlabeled data, aiming to extract meaningful patterns or structures. Clustering algorithms group similar data points together, while dimensionality reduction techniques like principal component analysis (PCA) and t-distributed stochastic neighbor embedding (t-SNE) simplify complex datasets. Unsupervised learning finds applications in anomaly detection, customer segmentation, and recommendation systems.</li>
+                                <li>Reinforcement Learning: Reinforcement learning (RL) focuses on learning optimal decision-making strategies through interaction with an environment. Agents receive feedback in the form of rewards or penalties based on their actions, enabling them to learn the best course of action to maximize cumulative rewards. RL algorithms, such as Q-learning and deep Q-networks, are prominent in robotics, gaming, finance, and autonomous vehicle development.</li>
+                                <li>Deep Learning: Deep learning is a subset of ML that utilizes neural networks with multiple layers to extract hierarchical representations from data. Convolutional neural networks (CNNs) excel in image recognition tasks, recurrent neural networks (RNNs) are proficient in sequential data analysis, and transformers have revolutionized natural language processing. Deep learning's success is attributed to its ability to automatically learn features from raw data.</li>
+                                <li>Model Evaluation and Validation: Assessing the performance of ML models is crucial to ensure their effectiveness and generalization to unseen data. Metrics like accuracy, precision, recall, and F1-score quantify classification performance, while mean squared error (MSE) and mean absolute error (MAE) measure regression accuracy. Techniques such as cross-validation, train-test splitting, and hyperparameter tuning aid in model selection and optimization.</li>
+                                <li>Ethical and Societal Implications: ML raises ethical concerns regarding data privacy, bias, and algorithmic fairness. Biased datasets can perpetuate societal inequalities, while opaque algorithms may reinforce discrimination. Ethical guidelines and frameworks, along with diverse and inclusive data collection practices, are essential to mitigate these issues and ensure ML systems benefit society equitably</li>
+                                <li>Future Directions and Challenges: The future of ML holds promise in areas like autonomous systems, healthcare, and personalized services. Challenges include interpretability of complex models, data scarcity in niche domains, and adversarial attacks on ML systems. Advancements in explainable AI, federated learning, and interdisciplinary collaborations are key to overcoming these challenges and realizing ML's full potential.</li>
+                            </ol>
+                        </div>
+                        <p><a href="../../index.html#recent_courses" target="_blank">More courses</a></p>
+                    </div>
+                </td>
+            </tr>
+        </table>
+
+        <!--Do not touch this area-->
+        <div class="contact-us" id="contact">
+           
+            <p>© 2024 All Rights Reserved, <a href="../../index.html" style="color: white; font-weight: bold;"  target="_blank">MindSnap</a></p>
+        </div>
+        <script src="../../js/course_logic.js"></script>
+    </body>
+</html>

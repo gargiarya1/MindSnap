@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+
+<html lang="en">
+    <head>
+        <!--Start from here, change title as required-->
+        <title>Courses | Computational Subjects | Neural Networks</title>
+        <link rel="stylesheet" type="text/css" href="../../styles/style_course.css">
+        <link rel="icon" href="../../assets/logos/title_icon.png" type="image/icon type">
+
+        <!--Google Fonts-->
+        <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+    </head>
+    <body>
+        <!--Navbar-->
+        <nav>
+            <ul class="menu-bar">
+                <div class="logo">
+                    <a href="../../index.html">
+                        <i class='fas fa-laptop-code' style='font-size:20px' >MindSnap</i>
+                    </a>
+                </div>
+                <li><a href="../../index.html">Home</a></li>
+                <li><a href="../../index.html#recent_courses">Recent Courses</a></li>
+                <li><a href="../../index.html#elective_subjects">Elective Subjects</a></li>
+                <li><a href="#contact">Contact Us</a></li>
+                <li><a href="../../suggestions.html" style="text-decoration: none;">Suggestions</a></li>
+            </ul>
+        </nav>
+
+        <!--course-Card-->
+        <div class="course_card_outline">
+            <h1>Neural Networks</h1>
+            <table>
+                <tr>
+                    <td style="text-align: center;">
+                        <img src="../../assets/elective_subjects/courses/computational_subjects/neural_networks.jpg" height="500px" width="320px"><br>
+                        <a class="btn-primary" href="#course_main" style="text-decoration: none;">View Course</a>
+                    </td>
+                </tr>        
+            </table>
+            <br>
+        </div>                
+
+        <!--course main-->
+        <!--Change table width till it looks nice-->
+        <br>
+        <table id="course_main" width = "80%" style="margin-left: auto; margin-right: auto;">
+            <tr>
+                <td>
+                    <div class="main-content" style="padding-top: 5px; padding-bottom: 5px;">
+                        <!--About the dish-->
+                        <h2>About</h2>
+                        <p>A neural network- is a computational model inspired by the human brain's structure and function. It consists of interconnected nodes, or "neurons," organized into layers. Each neuron processes input data and transmits signals to neurons in the next layer. Through repeated training on labeled data, neural networks learn to recognize patterns, making them powerful tools for tasks like image recognition, natural language processing, and more.</p>
+                        
+                        <!--Video-->
+                        <h2>Video</h2>
+                        <!--Copy paste the entire iframe tag from YouTube, Open youtube video, SHARE, EMBED, copy the iframe tag that comes up-->
+                        <iframe width="560" height="315" src="https://www.youtube.com/embed/ob1yS9g-Zcs?si=iIyBd9ebFXek2r0u" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                        <!--Steps-->
+                        <!--Add li tags for more steps-->
+                        <h2>Notes</h2>
+                        <div class="notes">
+                            <ol>
+                                <li>Introduction to Neural Networks:
+                                    Neural networks are computational models inspired by the human brain. They consist of interconnected nodes or neurons organized in layers. Each neuron processes information and passes it to the next layer, enabling the network to learn patterns and make decisions, such as image recognition or language translation.</li>
+                                <li>Types of Neural Networks:
+                                    Various types include feedforward, recurrent, convolutional, and generative adversarial networks. Feedforward networks process data in one direction, while recurrent networks have feedback loops, enabling them to process sequences. Convolutional networks excel at image recognition tasks, and generative adversarial networks generate new data resembling the training set.</li>
+                                <li>Training Neural Networks:
+                                    Training involves feeding input data through the network, adjusting connection weights iteratively to minimize errors. Backpropagation, a key algorithm, calculates gradients of the loss function with respect to each weight, facilitating optimization. Training requires large datasets, computational resources, and careful tuning of hyperparameters to avoid overfitting or underfitting.</li>
+                                <li>Applications of Neural Networks:
+                                    They find applications across industries, from finance to healthcare and entertainment. In finance, they predict market trends or fraud detection. Healthcare utilizes them for diagnosis from medical images or drug discovery. Entertainment benefits from recommendation systems or natural language processing for chatbots and translation services.</li>
+                                <li>Challenges in Neural Network Design:
+                                    Challenges include interpretability, as neural networks are often considered black boxes due to their complex internal workings. They also require extensive computational resources for training and inference, limiting deployment in resource-constrained environments. Ethical concerns arise regarding biases in data or decision-making processes, necessitating careful consideration in deployment.</li>
+                                <li>Recent Advances in Neural Networks:
+                                    Recent advances include transformer architectures for natural language processing, achieving state-of-the-art performance in tasks like language translation and text generation. Reinforcement learning, combined with neural networks, has led to breakthroughs in game playing and robotics. Continued research focuses on improving efficiency, interpretability, and generalization capabilities.</li>
+                                <li>Future Directions in Neural Networks:
+                                    Future directions include enhancing robustness against adversarial attacks, improving transfer learning capabilities, and integrating neural networks with other AI techniques like symbolic reasoning. Neuromorphic computing, inspired by biological brains, aims to develop energy-efficient hardware for neural network execution, enabling real-time, low-power applications.</li>
+                                <li>Conclusion:
+                                    Neural networks represent a powerful paradigm in artificial intelligence, enabling computers to learn complex patterns and make decisions across diverse domains. With ongoing research and advancements, they hold the potential to revolutionize various industries, driving innovation and addressing societal challenges in the years to come.</li>
+                            </ol>
+                        </div>
+                        <p><a href="../../index.html#recent_courses" target="_blank">More courses</a></p>
+                    </div>
+                </td>
+            </tr>
+        </table>
+
+        <!--Do not touch this area-->
+        <div class="contact-us" id="contact">
+           
+            <p>© 2024 All Rights Reserved, <a href="../../index.html" style="color: white; font-weight: bold;"  target="_blank">MindSnap</a></p>
+        </div>
+        <script src="../../js/course_logic.js"></script>
+    </body>
+</html>
